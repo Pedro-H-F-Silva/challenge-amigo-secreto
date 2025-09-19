@@ -168,3 +168,18 @@ ul {
     font-family: 'Merriweather', serif;
     font-size: 15px;
 }
+
+@media (max-width: 412px) {
+    .header-banner {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .imagem {
+        width: 80%;
+    }
+
+    .input-section {
+        padding-bottom: 100%;
+    }
+}

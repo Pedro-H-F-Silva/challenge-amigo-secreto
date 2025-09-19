@@ -32,10 +32,11 @@ function sortearAmigo() {
     (`${nomeSorteado}` );
   let resultadoAmigo = document.getElementById('resultado');
 resultadoAmigo.innerHTML = (`${nomeSorteado}`);
+document.getElementById('listaAmigos').textContent = ''; 
+amigos.length = 0; 
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Seleciona o input pelo id usado no HTML
     let input = document.getElementById('amigo');
     input.addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
@@ -44,4 +45,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
 

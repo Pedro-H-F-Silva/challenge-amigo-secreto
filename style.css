@@ -136,10 +136,11 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #be2517;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    text-decoration-line: underline;
 }
 
 /* Botão de sortear título */
